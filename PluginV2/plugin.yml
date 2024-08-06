@@ -1,0 +1,20 @@
+name: plugin
+version: 1.0
+author: Nathan
+main: fr.nathan.plugin.Main
+commands:
+  setseed:
+    description: Change la seed du monde
+  admin:
+    description: Gère les administrateurs
+  start:
+    description: Démarre la partie
+  stop:
+    description: Arrête la partie
+  classe:
+    description: Gère les classes des joueurs
+    aliases: [class]
+  team:
+    description: Gère les équipes des joueurs
+  hxh:
+    description: Commandes pour les rôles HXH
